@@ -1,10 +1,11 @@
-import S from './contacts.module.scss'
-const Contacts = () => {
+import S from './homePage.module.scss'
+import Container from "@/components/ui/Container/Container";
+const homePage = () => {
     return (
-        <div>
-
-        </div>
+        <Container>
+            123
+        </Container>
     );
 };
 
-export default Contacts;
+export default homePage;

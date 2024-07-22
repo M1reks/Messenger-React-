@@ -1,0 +1,53 @@
+@use "../../style/variables" as c;
+
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.contacts {
+  background-color: c.$GREEN;
+  width: 500px;
+  padding: 0 10px;
+}
+
+.seach {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: c.$BLACK;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.user{
+  padding: 0 10px;
+  display: flex;
+  gap: 15px;
+  border: 1px c.$STROKE solid;
+  border-radius: 10px;
+
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 90%;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.description {
+  p {
+    color: #fff;
+  }
+}
+
+.message {
+  background-color: c.$DARK-GREEN;
+  width: 100%;
+}
